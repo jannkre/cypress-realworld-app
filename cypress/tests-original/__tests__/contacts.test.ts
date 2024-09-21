@@ -8,9 +8,9 @@ import {
   seedDatabase,
   removeContactById,
   getContactsByUserId,
-} from "../../backend/database";
-import { User } from "../../src/models/user";
-import { totalContacts, contactsPerUser } from "../../scripts/seedDataUtils";
+} from "../../../backend/database";
+import { User } from "../../../src/models/user";
+import { totalContacts, contactsPerUser } from "../../../scripts/seedDataUtils";
 describe("Contacts", () => {
   beforeEach(() => {
     seedDatabase();

@@ -15,7 +15,7 @@ import {
   getPublicTransactionsDefaultSort,
   getUserById,
   getBankTransferByTransactionId,
-} from "../../backend/database";
+} from "../../../backend/database";
 
 import {
   User,
@@ -25,9 +25,9 @@ import {
   BankTransferType,
   TransactionPayload,
   TransactionStatus,
-} from "../../src/models";
-import { getFakeAmount } from "../../src/utils/transactionUtils";
-import { totalTransactions, transactionsPerUser } from "../../scripts/seedDataUtils";
+} from "../../../src/models";
+import { getFakeAmount } from "../../../src/utils/transactionUtils";
+import { totalTransactions, transactionsPerUser } from "../../../scripts/seedDataUtils";
 
 describe("Transactions", () => {
   beforeEach(() => {

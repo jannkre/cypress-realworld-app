@@ -6,9 +6,9 @@ import {
   getTransactionsByUserId,
   createComment,
   getCommentsByTransactionId,
-} from "../../backend/database";
+} from "../../../backend/database";
 
-import { User, Transaction } from "../../src/models";
+import { User, Transaction } from "../../../src/models";
 
 describe("Comments", () => {
   beforeEach(() => {

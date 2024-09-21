@@ -14,7 +14,7 @@ import {
   updateNotificationById,
   getNotificationById,
   formatNotificationForApiResponse,
-} from "../../backend/database";
+} from "../../../backend/database";
 
 import {
   User,
@@ -27,7 +27,7 @@ import {
   CommentNotification,
   NotificationsType,
   NotificationType,
-} from "../../src/models";
+} from "../../../src/models";
 
 describe("Notifications", () => {
   let user: User;

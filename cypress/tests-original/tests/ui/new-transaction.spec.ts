@@ -1,5 +1,5 @@
 import Dinero from "dinero.js";
-import { User } from "../../../src/models";
+import { User } from "../../../../src/models";
 import { isMobile } from "../../support/utils";
 
 type NewTransactionTestCtx = {

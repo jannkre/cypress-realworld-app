@@ -6,9 +6,9 @@ import {
   TransactionResponseItem,
   Contact,
   TransactionStatus,
-} from "../../../src/models";
+} from "../../../../src/models";
 import { addDays, isWithinInterval, startOfDay } from "date-fns";
-import { startOfDayUTC, endOfDayUTC } from "../../../src/utils/transactionUtils";
+import { startOfDayUTC, endOfDayUTC } from "../../../../src/utils/transactionUtils";
 import { isMobile } from "../../support/utils";
 
 const { _ } = Cypress;

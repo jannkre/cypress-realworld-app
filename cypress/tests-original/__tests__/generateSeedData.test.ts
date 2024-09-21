@@ -9,8 +9,8 @@ import {
   totalComments,
   totalNotifications,
   totalBankTransfers,
-} from "../../scripts/seedDataUtils";
-import { TDatabase } from "../../backend/database";
+} from "../../../scripts/seedDataUtils";
+import { TDatabase } from "../../../backend/database";
 
 describe.skip("Seed Database", () => {
   let database: TDatabase;
