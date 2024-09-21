@@ -27,6 +27,7 @@
     "@okta/jwt-verifier": "^3.0.1",
     "@okta/okta-auth-js": "^7.3.0",
     "@okta/okta-react": "^6.7.0",
+    "@testing-library/user-event": "^14.5.2",
     "@types/detect-port": "^1.3.2",
     "@xstate/react": "3.2.2",
     "aws-amplify": "^6.0.16",
@@ -49,7 +50,8 @@
     "uuid": "8.3.2",
     "webpack": "5",
     "xstate": "4.38.3",
-    "yup": "0.32.11"
+    "yup": "0.32.11",
+    "zustand": "^5.0.0-rc.2"
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "7.21.11",
@@ -60,7 +62,7 @@
     "@percy/cli": "^1.27.4",
     "@percy/cypress": "3.1.2",
     "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^14.0.0",
+    "@testing-library/react": "^14.3.1",
     "@types/bcryptjs": "2.4.2",
     "@types/bluebird": "3.5.36",
     "@types/connect-flash": "0.0.37",
