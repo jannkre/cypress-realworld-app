@@ -36,10 +36,13 @@ export default defineConfig(({ command, mode }) => {
         },
       ],
     },
+    includeTaskLocation: true,
     test: {
+      includeTaskLocation: true,
       environment: "jsdom",
       setupFiles: "./src/setup-tests.js",
       exclude: ["node_modules", "cypress", "dist"],
+      // reporters: ['default', 'html']
     },
   };
 });

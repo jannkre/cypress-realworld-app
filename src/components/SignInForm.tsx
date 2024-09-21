@@ -22,6 +22,7 @@ import Footer from "./Footer";
 import { SignInPayload } from "../models";
 import { AuthMachineContext, AuthMachineEvents, AuthMachineSchema } from "../machines/authMachine";
 import { Alert } from "@mui/material";
+import OTP from "./Custom/OTP.component";
 
 const validationSchema = object({
   username: string().required("Username is required"),
@@ -173,6 +174,7 @@ const SignInForm: React.FC<Props> = ({ authService }) => {
             </Form>
           )}
         </Formik>
+        <OTP />
       </div>
       <Box mt={8}>
         <Footer />
