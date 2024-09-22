@@ -25,5 +25,5 @@
     "src/__tests__",
     "cypress.d.ts",
     "src/utils/portUtils.ts"
-  ]
+, "prewritten/written/__mocks__", "prewritten/written/otp.test.tsx", "prewritten/written/__fixtures__"  ]
 }
